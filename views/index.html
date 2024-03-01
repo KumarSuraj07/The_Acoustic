@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>The_Acoustic</title>
+</head>
+
+<style>
+  * {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body>
+
+  <!-- navbar -->
+
+  <header class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <!-- <svg  fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full"
+          viewBox="0 0 24 24"> -->
+
+        <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
+        </svg>
+        <a href="/"><span class="ml-3 text-xl">The_Acoustic</span></a>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="#home" class="mr-5 hover:text-white">Home</a>
+        <a href="#product" class="mr-5 hover:text-white">Products</a>
+        <a href="#about" class="mr-5 hover:text-white">About</a>
+        <a href="#more" class="mr-5 hover:text-white">More</a>
+        <a href="contact" target="_blank" class="mr-5 hover:text-white">Contact-Us</a>
+      </nav>
+      <a href="signIn"><button
+          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign
+          In
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </a>
+    </div>
+  </header>
+
+  <!-- homepage -->
+
+  <section class="text-gray-400 bg-gray-900 body-font" id="home">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white">THE
+          <br class="hidden lg:inline-block">ACOUSTIC
+        </h1>
+        <p id="changingParagraph" class="mb-8 leading-relaxed">"Strumming Dreams to Life: Your Melody, Your Guitar.
+          Unleash Your Sound with
+          Precision and Passion at [The_Acoustic]."</p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Explore</button>
+          <!-- <button
+            class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button> -->
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?guitar">
+      </div>
+    </div>
+  </section>
+
+  <!-- products page -->
+
+  <section class="text-gray-400 bg-gray-900 body-font" id="product">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="lg:w-2/3 mx-auto">
+        <div class="flex flex-wrap w-full bg-gray-800 py-32 px-10 relative mb-4">
+          <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0"
+            src="https://source.unsplash.com/820x340/?electricguitar">
+          <div class="text-center relative z-10 w-full">
+            <h2 class="text-2xl text-white font-medium title-font mb-2">Electric Guitar</h2>
+            <p class="leading-relaxed">Unleash Your Sonic Potential with Electric Harmony.</p>
+            <a class="mt-3 text-red-300 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-2">
+          <div class="px-2 w-1/2">
+            <div class="flex flex-wrap w-full bg-gray-800 sm:py-24 py-16 sm:px-10 px-6 relative">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0"
+                src="https://source.unsplash.com/542x460/?acousticguitar">
+              <div class="text-center relative z-10 w-full">
+                <h2 class="text-xl text-white font-medium title-font mb-2">Acoustic Guitar</h2>
+                <p class="leading-relaxed">Strings that Whisper, Echoes that Resonate.</p>
+                <a class="mt-3 text-red-300 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="px-2 w-1/2">
+            <div class="flex flex-wrap w-full bg-gray-800 sm:py-24 py-16 sm:px-10 px-6 relative">
+              <img alt="gallery" class="w-full object-cover h-full object-center block opacity-30 absolute inset-0"
+                src="https://source.unsplash.com/542x420/?bassguitar">
+              <div class="text-center relative z-10 w-full">
+                <h2 class="text-xl text-white font-medium title-font mb-2">Bass Guitar</h2>
+                <p class="leading-relaxed">Bass Bliss: Where Notes Resonate..</p>
+                <a class="mt-3 text-red-300 inline-flex items-center">Learn More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- about page -->
+
+  <section class="text-gray-400 bg-gray-900 body-font" id="about">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Harmony Unveiled: Explore
+          The_Acoustic's Page – Where Passionate Musicians Share Stories, Ratings, and Soundscapes</h1> <br>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">At "The_Acoustic," we understand the importance of making
+          informed decisions when it comes to purchasing musical instruments. Our Product Reviews Page is designed to
+          provide you with valuable insights and firsthand experiences shared by our community of passionate musicians.
+        </p> <br>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Authentic Customer Feedback: Discover what our customers
+          have to say about their experiences with our
+          acoustic instruments. Our reviews are submitted by real musicians who have purchased and used our products,
+          offering genuine feedback.</p> <br>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Comprehensive Ratings: Easily assess the overall satisfaction of our customers through comprehensive ratings
+          and detailed reviews. From sound quality to build durability, our community shares their thoughts on various
+          aspects of our acoustic instruments. </p> <br>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Diverse Perspectives: Whether you're a beginner looking for an entry-level guitar or an experienced musician
+          in search of a professional-grade instrument, our reviews cover a wide range of skill levels and preferences.
+          Gain insights from diverse perspectives to find the perfect match for your musical journey.</p>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> <br>
+          Helpful Tips and Tricks: In addition to reviews, our community often shares helpful tips and tricks to
+          maximize the potential of our acoustic instruments. Learn about maintenance, playing techniques, and more to
+          enhance your musical experience.</p>
+      </div>
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-red-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-white">2.7K</h2>
+            <p class="leading-relaxed">Buyers</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-red-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-white">1.3K</h2>
+            <p class="leading-relaxed">Users</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-red-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path
+                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
+              </path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-white">500+</h2>
+            <p class="leading-relaxed">Products</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-800 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-red-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-white">46</h2>
+            <p class="leading-relaxed">Places</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- more page -->
+
+  <section class="text-gray-400 bg-gray-900 body-font" id="more">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-500 mb-8"
+          viewBox="0 0 975.036 975.036">
+          <path
+            d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+          </path>
+        </svg>
+        <p class="leading-relaxed text-lg">Welcome to our premier online destination for all things guitar-related! Our
+          E-commerce guitar website is a haven for music enthusiasts, offering an extensive and carefully curated
+          selection of guitars that cater to players of all skill levels and musical tastes. From timeless classics to
+          cutting-edge models, our inventory showcases top-quality instruments from renowned brands, ensuring that every
+          musician can find their perfect match. Browse through our user-friendly interface to discover a vast array of
+          electric guitars, acoustic guitars, bass guitars, and accessories, all accompanied by detailed descriptions
+          and high-resolution images. Whether you're a seasoned professional or a beginner embarking on a musical
+          journey, our website provides a seamless shopping experience with secure transactions and prompt delivery.
+          Elevate your musical experience with our comprehensive range of guitars and gear, backed by a commitment to
+          exceptional customer service and a passion for fostering the art of music.</p>
+        <span class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"></span>
+        <h2 class="text-white font-medium title-font tracking-wider text-sm">KUMAR SURAJ</h2>
+        <p class="text-gray-500">Musician</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer  -->
+
+  <footer class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <span class="ml-3 text-xl">The_Acoustic</span>
+      </a>
+      <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2023
+        The_Acoustic —
+        <a href="https://twitter.com/surajku33950811" class="text-gray-500 ml-1" target="_blank"
+          rel="noopener noreferrer">@kumarsuraj</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-400">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-400">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+  <script src="homeScript.js"></script>
+
+
+</body>
+
+</html>
